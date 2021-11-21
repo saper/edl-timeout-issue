@@ -1,0 +1,54 @@
+Script started on Sun Nov 21 23:31:49 2021
+Command: ktrace -f /tmp/edl-master-0cc421a.trace python edl --debugmode printgpt
+Qualcomm Sahara / Firehose Client V3.53 (c) B.Kerler 2018-2021.
+main - Trying with no loader given ...
+main - Waiting for the device
+UsbClass
+UsbClass - [LIB]: [95m  CONFIGURATION 1: 2 mA ====================================
+   bLength              :    0x9 (9 bytes)
+   bDescriptorType      :    0x2 Configuration
+   wTotalLength         :   0x20 (32 bytes)
+   bNumInterfaces       :    0x1
+   bConfigurationValue  :    0x1
+   iConfiguration       :    0x0 
+   bmAttributes         :   0x80 Bus Powered
+   bMaxPower            :    0x1 (2 mA)
+    INTERFACE 0: Vendor Specific ===========================
+     bLength            :    0x9 (9 bytes)
+     bDescriptorType    :    0x4 Interface
+     bInterfaceNumber   :    0x0
+     bAlternateSetting  :    0x0
+     bNumEndpoints      :    0x2
+     bInterfaceClass    :   0xff Vendor Specific
+     bInterfaceSubClass :   0xff
+     bInterfaceProtocol :   0xff
+     iInterface         :    0x0 
+      ENDPOINT 0x81: Bulk IN ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :   0x81 IN
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :  0x200 (512 bytes)
+       bInterval        :    0x0
+      ENDPOINT 0x1: Bulk OUT ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :    0x1 OUT
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :  0x200 (512 bytes)
+       bInterval        :    0x0[0m
+UsbClass
+UsbClass - [LIB]: [95mDetaching kernel driver[0m
+UsbClass
+UsbClass - [LIB]: [95mNo kernel driver supported: [Errno None] b'Unknown error'[0m
+UsbClass
+UsbClass - [LIB]: [95mDetaching kernel driver[0m
+UsbClass
+UsbClass - [LIB]: [95mNo kernel driver supported: [Errno None] b'Unknown error'[0m
+main - Device detected :)
+UsbClass
+UsbClass - [LIB]: [95mconnect:0x80[0m
+USBTimeoutError(60, b'Unknown error') <class 'usb.core.USBTimeoutError'> 60
+
+Command exit status: 0
+Script done on Sun Nov 21 23:31:51 2021

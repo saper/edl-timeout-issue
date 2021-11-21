@@ -1,0 +1,89 @@
+Script started on Sun Nov 21 23:35:16 2021
+Command: pip list -v
+Package                       Version      Location                                        Installer
+----------------------------- ------------ ----------------------------------------------- ---------
+alabaster                     0.7.12       /usr/local/lib/python3.8/site-packages
+appdirs                       1.4.4        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+apsw                          3.35.4.post1 /usr/local/lib/python3.8/site-packages
+Babel                         2.9.1        /usr/local/lib/python3.8/site-packages
+capstone                      4.0.1        /usr/local/lib/python3.8/site-packages
+certifi                       2021.5.30    /usr/local/lib/python3.8/site-packages
+cffi                          1.14.5       /usr/local/lib/python3.8/site-packages
+chardet                       4.0.0        /usr/local/lib/python3.8/site-packages
+cmsis-pack-manager            0.4.0        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+colorama                      0.4.4        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+cryptography                  3.3.2        /usr/local/lib/python3.8/site-packages
+css-parser                    1.0.6        /usr/local/lib/python3.8/site-packages
+Cython                        0.29.23      /usr/local/lib/python3.8/site-packages
+docopt                        0.6.2        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+docutils                      0.17.1       /usr/local/lib/python3.8/site-packages
+evdev                         1.4.0        /usr/local/lib/python3.8/site-packages
+future                        0.18.2       /usr/home/saper/ocd/lib/python3.8/site-packages pip
+hidapi                        0.11.0.post2 /usr/home/saper/ocd/lib/python3.8/site-packages pip
+html5-parser                  0.4.9        /usr/local/lib/python3.8/site-packages
+idna                          2.10         /usr/local/lib/python3.8/site-packages
+ifaddr                        0.1.7        /usr/local/lib/python3.8/site-packages
+imagesize                     1.2.0        /usr/local/lib/python3.8/site-packages
+intelhex                      2.3.0        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+intervaltree                  3.1.0        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+Jinja2                        2.11.2       /usr/local/lib/python3.8/site-packages
+keystone-engine               0.9.1.post3  /usr/local/lib/python3.8/site-packages
+lxml                          4.6.3        /usr/local/lib/python3.8/site-packages
+MarkupSafe                    1.1.1        /usr/local/lib/python3.8/site-packages
+mercurial                     5.5          /usr/local/lib/python3.8/site-packages
+milksnake                     0.1.5        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+msgpack                       1.0.2        /usr/local/lib/python3.8/site-packages
+naturalsort                   1.5.1        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+olefile                       0.46         /usr/local/lib/python3.8/site-packages
+packaging                     21.0         /usr/local/lib/python3.8/site-packages
+Pillow                        8.2.0        /usr/local/lib/python3.8/site-packages
+pip                           21.3.1       /usr/home/saper/ocd/lib/python3.8/site-packages pip
+prettytable                   2.4.0        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+psutil                        5.8.0        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+pycparser                     2.20         /usr/local/lib/python3.8/site-packages
+pycryptodome                  3.10.1       /usr/local/lib/python3.8/site-packages
+pyelftools                    0.27         /usr/home/saper/ocd/lib/python3.8/site-packages pip
+Pygments                      2.7.2        /usr/local/lib/python3.8/site-packages
+pylink-square                 0.11.1       /usr/home/saper/ocd/lib/python3.8/site-packages pip
+pylzma                        0.5.0        /usr/local/lib/python3.8/site-packages
+pyocd                         0.32.1       /usr/home/saper/ocd/lib/python3.8/site-packages pip
+pyocd-pemicro                 1.0.6        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+pyOpenSSL                     20.0.1       /usr/local/lib/python3.8/site-packages
+pyparsing                     2.4.7        /usr/local/lib/python3.8/site-packages
+pypemicro                     0.1.7        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+PyQt-builder                  1.9.1        /usr/local/lib/python3.8/site-packages
+PyQt5-sip                     12.8.1       /usr/local/lib/python3.8/site-packages
+pyserial                      3.5          /usr/local/lib/python3.8/site-packages
+PySocks                       1.7.1        /usr/local/lib/python3.8/site-packages
+python-dateutil               2.8.1        /usr/local/lib/python3.8/site-packages
+pytz                          2021.1       /usr/local/lib/python3.8/site-packages
+pyudev                        0.22.0       /usr/local/lib/python3.8/site-packages
+pyusb                         1.2.1        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+PyYAML                        6.0          /usr/home/saper/ocd/lib/python3.8/site-packages pip
+regex                         2020.7.14    /usr/local/lib/python3.8/site-packages
+requests                      2.25.1       /usr/local/lib/python3.8/site-packages
+setuptools                    59.2.0       /usr/home/saper/ocd/lib/python3.8/site-packages pip
+setuptools-scm                4.1.2        /usr/local/lib/python3.8/site-packages
+sip                           5.5.0        /usr/local/lib/python3.8/site-packages
+six                           1.16.0       /usr/local/lib/python3.8/site-packages
+snowballstemmer               2.1.0        /usr/local/lib/python3.8/site-packages
+sortedcontainers              2.4.0        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+Sphinx                        3.5.2        /usr/local/lib/python3.8/site-packages
+sphinxcontrib-applehelp       1.0.2        /usr/local/lib/python3.8/site-packages
+sphinxcontrib-devhelp         1.0.2        /usr/local/lib/python3.8/site-packages
+sphinxcontrib-htmlhelp        1.0.3        /usr/local/lib/python3.8/site-packages
+sphinxcontrib-jsmath          1.0.1        /usr/local/lib/python3.8/site-packages
+sphinxcontrib-qthelp          1.0.3        /usr/local/lib/python3.8/site-packages
+sphinxcontrib-serializinghtml 1.1.4        /usr/local/lib/python3.8/site-packages
+sqlite3                       0.0.0        /usr/local/lib/python3.8/lib-dynload
+Tkinter                       0.0.0        /usr/local/lib/python3.8/lib-dynload
+toml                          0.10.2       /usr/local/lib/python3.8/site-packages
+urllib3                       1.25.11      /usr/local/lib/python3.8/site-packages
+usb                           0.0.83.dev0  /usr/home/saper/ocd/lib/python3.8/site-packages pip
+virtualenv                    16.7.5       /usr/local/lib/python3.8/site-packages
+wcwidth                       0.2.5        /usr/home/saper/ocd/lib/python3.8/site-packages pip
+wheel                         0.37.0       /usr/home/saper/ocd/lib/python3.8/site-packages pip
+zeroconf                      0.30.0       /usr/local/lib/python3.8/site-packages
+
+Command exit status: 0
+Script done on Sun Nov 21 23:35:17 2021

@@ -1,0 +1,32 @@
+Script started on Sun Nov 21 23:32:27 2021
+Command: ktrace -f /tmp/edl-master-31d71f88.trace python edl.py -printgpt
+
+Qualcomm Sahara / Firehose Client (c) B.Kerler 2018-2019.
+
+
+Trying with loaders in Loader directory ...
+Waiting for the device
+Device detected :)
+Mode detected: Firehose
+TargetName=MSM8909
+MemoryName=eMMC
+Version=1
+
+Reading from physical partition 0, sector 0, sectors 32
+Traceback (most recent call last):
+  File "edl.py", line 419, in <module>
+    main()
+  File "edl.py", line 197, in main
+    data = fh.cmd_read_buffer(args.lun, 0, 0x4000 // cfg.SECTOR_SIZE_IN_BYTES)
+  File "/usr/home/saper/sw/edl/Library/firehose.py", line 241, in cmd_read_buffer
+    rsp=self.xmlsend(data)
+  File "/usr/home/saper/sw/edl/Library/firehose.py", line 73, in xmlsend
+    resp = self.xml.getresponse(data)
+  File "/usr/home/saper/sw/edl/Library/firehose.py", line 16, in getresponse
+    tree = ET.fromstring(line, parser=parser)
+  File "/usr/local/lib/python3.8/xml/etree/ElementTree.py", line 1320, in XML
+    parser.feed(text)
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 1, column 5
+
+Command exit status: 1
+Script done on Sun Nov 21 23:32:31 2021
